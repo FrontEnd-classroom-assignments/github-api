@@ -14,7 +14,9 @@ Display the list of repositories with:
 - Full name (e.g., facebook/react)
 - Clickable URL to the repository (html_url)
 
-Example output:
+### Example output:
+
+![Github explorer](.src/assests/github_explorer.png)
 
 ## Step 2: Keyword from user input
 Allow the user to enter a custom keyword and fetch matching repositories from GitHub.
