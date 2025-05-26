@@ -16,7 +16,7 @@ Display the list of repositories with:
 
 ### Example output:
 
-<img src="./src/assets/github_explorer.png" alt="Github explorer" style="width: 50%;">
+<img src="./src/assets/github_explorer.png" alt="Github explorer" style="width: 60%;">
 
 ## Step 2: Keyword from user input
 Allow the user to enter a custom keyword and fetch matching repositories from GitHub.
