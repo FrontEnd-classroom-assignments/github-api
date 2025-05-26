@@ -16,7 +16,7 @@ Display the list of repositories with:
 
 ### Example output:
 
-![Github explorer](.src/assests/github_explorer.png)
+![Github explorer](./src/assests/github_explorer.png)
 
 ## Step 2: Keyword from user input
 Allow the user to enter a custom keyword and fetch matching repositories from GitHub.
