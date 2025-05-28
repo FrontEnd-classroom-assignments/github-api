@@ -1,7 +1,7 @@
 # GitHub Repository Explorer
 Build a React application that fetches and displays public repositories from the GitHub REST API using a keyword. 
 
-## Step 1: Basic repository list
+## Step 1: Basic repository list (2 points)
 Use a hardcoded keyword (react) to fetch and display a list of GitHub repositories. Fetch is done on component mount.
 
 Make HTTP request to:
@@ -18,7 +18,7 @@ Display the list of repositories with:
 
 <img src="./src/assets/github_explorer.png" alt="Github explorer" style="width: 60%;">
 
-## Step 2: Keyword from user input
+## Step 2: Keyword from user input (3 points)
 Allow the user to enter a custom keyword and fetch matching repositories from GitHub. 
 
 **Do NOT** use `useEffect` for this. Logic inside event handlers (like `onClick`) is easier to follow than logic using useEffect hooks with dependencies.
@@ -33,7 +33,7 @@ Handle empty input and show a message if keyword is empty.
 
 <img src="./src/assets/github_explorer2.png" alt="Github explorer" style="width: 60%;">
 
-## Step 3: Bonus step
+## Step 3: Bonus step (2 points)
 Extract the fetch logic into a custom React hook for reusability and cleaner components.
 
 Or
