@@ -21,7 +21,7 @@ Display the list of repositories with:
 ## Step 2: Keyword from user input
 Allow the user to enter a custom keyword and fetch matching repositories from GitHub. 
 
-**Do NOT** use `useEffect` for this. Logic inside event handlers (like onClick) is easier to follow than logic using useEffect hooks with dependencies.
+**Do NOT** use `useEffect` for this. Logic inside event handlers (like `onClick`) is easier to follow than logic using useEffect hooks with dependencies.
 
 Add a text input and a **Search** button.
 
