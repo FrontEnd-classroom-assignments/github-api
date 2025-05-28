@@ -33,7 +33,7 @@ Handle empty input and show a message if keyword is empty.
 
 <img src="./src/assets/github_explorer2.png" alt="Github explorer" style="width: 60%;">
 
-## Bonus step:
+## Step 3: Bonus step
 Extract the fetch logic into a custom React hook for reusability and cleaner components.
 
 Or
