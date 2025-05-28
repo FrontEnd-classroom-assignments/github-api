@@ -2,7 +2,7 @@
 Build a React application that fetches and displays public repositories from the GitHub REST API using a keyword. 
 
 ## Step 1: Basic repository list
-Use a hardcoded keyword (react) to fetch and display a list of GitHub repositories.
+Use a hardcoded keyword (react) to fetch and display a list of GitHub repositories. Fetch is done on component mount.
 
 Make HTTP request to:
 ```
