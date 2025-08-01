@@ -1,9 +1,9 @@
-# GitHub-repositorion tutkija
+# GitHub-repositoriot
 
 Rakenna React-sovellus, joka hakee ja näyttää julkisia repositorioita GitHubin REST API:n kautta käyttäen avainsanaa.
 
 ## Vaihe 1: Perus repositoriolista (2 pistettä)
-Käytä kovakoodattua avainsanaa (react) hakeaksesi ja näyttääksesi listan GitHub-repositorioista. Haku tehdään komponentin mountissa.
+Käytä kovakoodattua avainsanaa (react) hakeaksesi ja näyttääksesi listan GitHub-repositorioista. Haku tehdään komponentin heti kun komponentti näytetään.
 
 Tee HTTP-pyyntö osoitteeseen:
 ```
