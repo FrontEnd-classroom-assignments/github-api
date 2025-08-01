@@ -22,9 +22,9 @@ Näytä lista repositorioista seuraavilla tiedoilla:
 ## Vaihe 2: Avainsana käyttäjän syötteestä (3 pistettä)
 Salli käyttäjän syöttää oma avainsana ja hae vastaavat repositoriot GitHubista.
 
-**Älä käytä** `useEffect`-hookkia tähän. Logiikka tapahtumankäsittelijöissä (kuten `onClick`) on helpompi seurata kuin useEffectin riippuvuudet.
+**Älä käytä** `useEffect`-hookkia tähän. Tapahtumankäsittelijän (kuten `onClick`) käyttäminen tässä tapauksessa yksinkertaistaa ja helpottaa koodin seuraamista.
 
-Lisää tekstikenttä ja **Search**-painike.
+Lisää tekstikenttä johon käyttäjä voi syöttää haussa käytettävän hakusanan. Lisää myös **Search**-painike jonka painaminen käynnistää haun.
 
 Kun painiketta klikataan, käytä syötettyä avainsanaa fetchissä. Päivitä lista näyttämään tulokset käyttäjän haun perusteella.
 
