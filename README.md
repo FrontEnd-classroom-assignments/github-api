@@ -1,6 +1,6 @@
 [Suomenkielinen tehtävänanto (README.fi.md)](README.fi.md)
 
-# GitHub Repository Explorer
+# GitHub Repository Explorer (5 points)
 Build a React application that fetches and displays public repositories from the GitHub REST API using a keyword. 
 
 ## Step 1: Basic repository list (2 points)
