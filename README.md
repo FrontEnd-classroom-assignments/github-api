@@ -86,12 +86,3 @@ Or
 
 Use some fetch library such as [TanStack Query](https://tanstack.com/query/latest). This approach gives automatic caching, loading states, retries, and more.
 
-
-
-## Bonus step
-Extract the fetch logic into a custom React hook for reusability and cleaner components.
-
-Or
-
-Use some fetch library such as [TanStack Query](https://tanstack.com/query/latest). This approach gives automatic caching, loading states, retries, and more.
-
