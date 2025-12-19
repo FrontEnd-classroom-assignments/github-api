@@ -73,7 +73,7 @@ Handle empty input and show a message if keyword is empty.
 
 <img src="./src/assets/github_explorer2.png" alt="Github explorer" style="width: 60%;">
 
-### Step 3: Filter by name
+## Step 3: Filter by name
 Implement a client-side filter that lets the user filter the displayed repositories by repository name (`full_name`). This step trains state handling and array filtering in React.
 
 - Add a text input labeled "Filter results by repository name".
