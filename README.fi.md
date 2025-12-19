@@ -34,7 +34,13 @@ Käsittele tyhjä syöte ja näytä viesti, jos avainsana puuttuu.
 
 <img src="./src/assets/github_explorer2.png" alt="Github explorer" style="width: 60%;">
 
-## Vaihe 3: Bonusvaihe (2 pistettä)
+## Vaihe 3: Suodatus nimen mukaan
+Toteuta selainpuolen suodatin, jonka avulla käyttäjä voi suodattaa näytetyt repositoriot repositorion nimen (full_name) perusteella.
+
+- Lisää tekstisyöte johon käyttäjä voi syöttää tekstin, jonka mukaan repositoriot suodatetaan.
+- Suodattimen on toimittava jo haettujen tulosten kanssa — älä hae repositoreha uudelleen GitHub-API:sta.
+
+## Bonusvaihe
 Erottele fetch-logiikka omaksi React-hookikseen uudelleenkäytettävyyden ja selkeämmän komponentin vuoksi.
 
 Tai
