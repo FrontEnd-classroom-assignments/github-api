@@ -1,8 +1,8 @@
-# GitHub-repositoriot
+# GitHub-repositoriot (5 pistettä)
 
 Rakenna React-sovellus, joka hakee ja näyttää julkisia repositorioita GitHubin REST API:n kautta käyttäen avainsanaa.
 
-## Vaihe 1: Perus repositoriolista (2 pistettä)
+## Vaihe 1: Perus repositoriolista (1 pistettä)
 Käytä kovakoodattua avainsanaa (react) hakeaksesi ja näyttääksesi listan GitHub-repositorioista. Haku tehdään komponentin heti kun komponentti näytetään.
 
 Tee HTTP-pyyntö osoitteeseen:
@@ -19,7 +19,7 @@ Näytä lista repositorioista seuraavilla tiedoilla:
 
 <img src="./src/assets/github_explorer.png" alt="Github explorer" style="width: 60%;">
 
-## Vaihe 2: Avainsana käyttäjän syötteestä (3 pistettä)
+## Vaihe 2: Avainsana käyttäjän syötteestä (2 pistettä)
 Salli käyttäjän syöttää oma avainsana ja hae vastaavat repositoriot GitHubista.
 
 **Älä käytä** `useEffect`-hookkia tähän. Tapahtumankäsittelijän (kuten `onClick`) käyttäminen tässä tapauksessa yksinkertaistaa ja helpottaa koodin seuraamista.
@@ -34,7 +34,7 @@ Käsittele tyhjä syöte ja näytä viesti, jos avainsana puuttuu.
 
 <img src="./src/assets/github_explorer2.png" alt="Github explorer" style="width: 60%;">
 
-## Vaihe 3: Suodatus nimen mukaan
+## Vaihe 3: Suodatus nimen mukaan (2 pistettä)
 Toteuta selainpuolen suodatin, jonka avulla käyttäjä voi suodattaa näytetyt repositoriot repositorion nimen (full_name) perusteella.
 
 - Lisää tekstisyöte johon käyttäjä voi syöttää tekstin, jonka mukaan repositoriot suodatetaan.
